@@ -80,7 +80,6 @@ class TicTacToe:
             if end_game:
                 print(message)
                 break
-            
 
             self.__computer_take_turn()
             end_game, message = self.__check_end_conditions("COMPUTER")
